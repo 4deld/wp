@@ -5,86 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>과제2</title>
+    <title>과제1</title>
 </head>
 
 <body>
-    <header class="top">
-        <h2>웹프로그래밍 과제2</h2>
-        <div>22011662 김재현</div>
-    </header>
-    <div class="middle">
-        <nav class="l">
-            <h4>목차</h4>
-            <ul>
-                <a href="#o">
-                    <li>과제2-1</li>
-                </a>
-                <a href="#t">
-                    <li>과제2-2</li>
-                </a>
-                <a href="#tw">
-                    <li>과제2-3</li>
-                </a>
-            </ul>
-        </nav>
-        <div class="m">
-            <div id="o">
-                <h3>과제2-1: 유튜브 동영상 재생</h3>
-                <iframe width="400" height="200" src="https://www.youtube.com/embed/8m-XuRXfbJo"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
-            <h3 id="t">과제2-2: 로그인 폼 만들기</h3>
-            <fieldset>
-                <legend>Login</legend>
-                <label>Username :<input type="text" name="name"></label>
-                <label>Password :<input type="text" name="p"></label>
-            </fieldset>
-
-
-
-
-
-            <h3 id="tw">과제2-3: 다양한 형태 폼 만들기</h3>
-            <fieldset>
-                <legend>도형 서식 입력</legend>
-                <span>선종류</span>
-                <select name="aa" id="bb" w>
-                    <option value="q">선없음</option>
-                    <option value="q">실선</option>
-                    <option value="q">점선</option>
-                </select><br>
-                <span>선두께</span>
-                <input type="number" max="50" min="1">
-                <span>선색</span>
-                <input type="color" value="#00bfff"><br>
-                <span>투명도(0~100):</span>
-                <input type="range" min="0" max="100" list="tm">
-                <datalist id="tm">
-                    <option value="0"></option>
-                    <option value="50"></option>
-                    <option value="100"></option>
-                </datalist>
-                
-            </fieldset>
-        </div>
-        <aside class="r">
-            <h4>과제2의 주내용</h4>
-            <ol>
-                <li>1. 시맨틱 태그이해</li>
-                <li>2. iframe 활용 youtube 동 영상 재생</li>
-                <li>3. 웰폼 활용</li>
-            </ol>
-
-
-        </aside>
+    <h1>웹프로그래밍 과제3</h1>
+    <h2>22011662 김재현</h2>
+    <hr>
+    <div>
+        <a href="./o.html" target="_blank">과제3-1</a>
+        <a href="./t.html" target="_blank">과제3-2</a>
+        <a href="./th.html" target="_blank">과제3-3</a>
     </div>
-    <footer class="bottom">
-        copyright
-    </footer>
 </body>
+<style>
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
 
 </html>

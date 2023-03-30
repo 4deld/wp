@@ -1,0 +1,22 @@
+body {
+    background-color: powderblue;
+}
+
+.q {
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+.w {
+    color: blue;
+}
+
+.e {
+    color: red;
+    font-size: 25px;
+}
+
+.r {
+    background-color: darkorange;
+}
